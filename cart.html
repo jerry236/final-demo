@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+  <head>
+    <title>為你打造美好的生活</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-storage.js"></script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body class="subpage">
+    <!-- Header -->
+    <header id="header">
+      <div class="logo">
+        <a href="index.html">Dsign <span>by KUAN-YING</span></a>
+      </div>
+      <a href="#menu">Menu</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="index.html">產品</a></li>
+        <li><a href="cart.html">購物車</a></li>
+      </ul>
+    </nav>
+
+    <!-- One -->
+    <section id="One" class="wrapper style3">
+      <div class="inner">
+        <header class="align-center">
+          <h2>您的購物車</h2>
+        </header>
+      </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main" class="container">
+      <!-- Elements -->
+
+      <div class="row 100%" style="width: 100%;">
+        <div style="width: 100%;">
+          <header>
+            <h2>感謝您將本公司產品加入購物車</h2>
+            <p>Thanks for having us</p>
+          </header>
+          <p>
+            購買本產品絕對是你畢生，最明智的選擇<br />不用擔心絕對不會被發現，也不會剁手手
+          </p>
+
+          <div
+            style="display: flex; justify-content: space-between; align-items: center;"
+          >
+            <h4>購物明細</h4>
+            <div id="clear-cart" class="button special">清空購物車</div>
+          </div>
+
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>編號</th>
+                  <th>名稱</th>
+                  <th>價錢</th>
+                </tr>
+              </thead>
+              <tbody id="cart-table"></tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2"></td>
+                  <td id="cart-total">0.00</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+
+          <a href="chekout.html" id="checkout-btn" class="button special fit"
+            >買單去!</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.facebook.com/kuanying123"
+              class="icon fa-facebook"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/kuanying_0223/?hl=zh-tw"
+              class="icon fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon fa-envelope-o"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        &copy; 再長的路，一步步也能走完，再短的路，不邁開雙腳也無法到達
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="outsideJS/jquery.min.js"></script>
+    <script src="outsideJS/jquery.scrollex.min.js"></script>
+    <script src="outsideJS/skel.min.js"></script>
+    <script src="outsideJS/util.js"></script>
+    <script src="outsideJS/main.js"></script>
+  </body>
+</html>
